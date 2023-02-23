@@ -337,14 +337,14 @@
             </form>
             <button type="submit" class="btn btn-success mt-3">Contact Me</button> -->
 
-            <form name="contact" method="POST" data-netlify="true">
-              <input type="hidden" name="form-name" value="contact">
+            <form name="contact" method="POST" data-netlify="true" action="/success/">
+              <input type="hidden" class="form-control form-control-lg" name="form-name" value="contact">
               <!-- <input type="hidden" name="form-name" value="name_of_my_form" /> -->
               <p>
-                <label>Your Name: <input type="text" name="name" /></label>
+                <label>Your Name: <input type="text" class="form-control mt-3" name="name" /></label>
               </p>
               <p>
-                <label>Your Email: <input type="email" name="email" /></label>
+                <label>Your Email: <input type="email"  class="form-control mt-3" name="email" /></label>
               </p>
               <!-- <p>
                 <label>Your Role: <select name="role[]" multiple>
@@ -354,10 +354,10 @@
 
               </p> -->
               <p>
-                <label>Message: <textarea name="message"></textarea></label>
+                <label>Message: <textarea name="message" class="form-control" rows="5"></textarea></label>
               </p>
               <p>
-                <button type="submit">Send</button>
+                <button type="submit" class="btn btn-success mt-3">Send</button>
               </p>
             </form>
             
