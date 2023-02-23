@@ -62,6 +62,11 @@
 .servicesText:hover {
   border: 1px solid #008000;
 }
+#form {
+  
+  padding-top: 4rem;
+}
+
 
 /* social media icons styling */
 .social-icons {
