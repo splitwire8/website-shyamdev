@@ -40,6 +40,9 @@ document
   .querySelector("form")
   .addEventListener("submit", handleSubmit);
 
-// document.getElementById('myform').reset();
+function refreshPage() {
+alert("Form successfully submitted");
+ window.location.reload();
+}
 
 
