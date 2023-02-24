@@ -33,7 +33,7 @@ const handleSubmit = (event) => {
     body: new URLSearchParams(formData).toString(),
   })
     .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error));
+    .catch(error) 
 };
 
 document
